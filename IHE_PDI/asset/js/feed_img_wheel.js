@@ -1,6 +1,6 @@
 // JavaScript Document
 
-/* �摜�X�N���[�� */
+/* 画像スクロール */
 function scrollImg() {
   var mwe = 'onwheel' in document ? 'wheel' : 'onmousewheel' in document ? 'mousewheel' : 'DOMMouseScroll',
       _scrl = function (_dir) {
@@ -12,12 +12,12 @@ function scrollImg() {
 	    if (_next_img !== null) {
 	      var _next_nodename = _next_img.nodeName;
 	      if (_next_nodename === 'IMG') {
-                // �摜�ؑ�
+                // 画像切替
 	        _this.setAttribute('class', '');
 	        _next_img.setAttribute('class', 'current');
 	        _next_img.style.display = '';
 	        _this.style.display = 'none';
-	        // �摜�ԍ��ؑ�
+	        // 画像番号切替
 	        var _imgno = _next_img.getAttribute('id').split('img')[1];
 	        feedPageNum(_imgno);
 		return false;
@@ -31,11 +31,11 @@ function scrollImg() {
         var _delta = e.deltaY ? -(e.deltaY) : e.wheelDelta ? e.wheelDelta : -(e.wheelDelta);
         if (_delta < 0) {
             e.preventDefault();
-            // ���ɃX�N���[�������ꍇ�̏���
+            // 下にスクロールした場合の処理
 	    _scrl("asc");
 	} else if (_delta > 0) {
             e.preventDefault();
-            // ��ɃX�N���[�������ꍇ�̏���
+            // 上にスクロールした場合の処理
 	    _scrl("desc");
         }
       };
