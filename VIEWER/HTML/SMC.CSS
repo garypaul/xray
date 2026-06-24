@@ -1,0 +1,246 @@
+
+BODY.FRM{
+	font-family : "ÇlÇr ÇoÉSÉVÉbÉN";
+	font-size : 12.0px;
+	background-color: #FFFFFF;
+	overflow: HIDDEN;
+	}
+
+BODY	{
+	font-family : "ÇlÇr ÇoÉSÉVÉbÉN";
+	font-size : 12.0px;
+	background-color: #FFFFFF;
+	overflow: auto;
+	}
+
+:link	{color:#0000FF}
+:visited{color:purple}
+
+DIV.PAGE{
+	color : BLACK;
+	 font-size : 12.0px;
+          line-height : 17.0px;
+	  margin-top : 0px;
+	  margin-left : 10px;
+	  margin-right :10px;
+	border-style: dotted;
+	border-width: 0.0px 0.0px 0.0px 1.0px;
+      border-color : black;
+      padding : 30.0px;}
+
+DIV.PAGE1{
+	color : BLACK;
+	font-size : 12.0px;
+        line-height : 17.0px;
+	margin-left : 10px;
+	margin-right :10px;
+	}
+
+	  
+H1 { 
+	color : BLACK; 
+ 	font-size : 16.0px;
+      line-height : 18.0px;
+      font-weight : bold;
+      margin-top : 3.0px;
+      margin-bottom : 15.0px;
+	margin-left : 10.0px;
+      background-color : #87CEFA;
+	border-style: solid solid solid solid;
+	border-width: 1.0px 1.0px 1.0px 1.0px;
+      padding : 6.0px;}
+
+H1.CNT { 
+	color : BLACK; 
+ 	font-size : 16.0px;
+      line-height : 18.0px;
+      font-weight : normal;
+      margin-top : 3.0px;
+      margin-bottom : 15.0px;
+      background-color : #87CEFA;
+	border-style: solid none solid none;
+	border-width: 1.0px 1.0px 1.0px 1.0px;
+      padding : 6.0px;}
+
+ H2 { font-size : 14.0px;
+      line-height : 17px;
+      font-weight : bold;
+      margin-top : 20.0px;
+      margin-bottom : 5.0px;
+      color : #0000B8;}
+
+ H2.TOP { font-size : 14.0px;
+      line-height : 17px;
+      font-weight : bold;
+      margin-top : -5.0px;
+      margin-bottom : 5.0px;
+      color : #0000B8;}
+
+ H3 { font-size : 12.0px;
+      line-height : 16px;
+      font-weight : bold;
+      margin-top : 5.0px;
+      margin-bottom : 3.0px;
+	color : black}
+
+H3.TOP { font-size : 12.0px;
+      line-height : 16px;
+      font-weight : bold;
+      margin-top : -5.0px;
+      margin-bottom : 2.0px;
+Å@Å@color : black;}
+
+H3.IN { font-size : 12.0px;
+      line-height : 16px;
+      font-weight : bold;
+      margin-top : -2.0px;
+      margin-bottom : 0.0px;
+Å@Å@color : black;}
+
+H3.COL { font-size : 12.0px;
+      line-height : 16px;
+      font-weight : bold;
+      margin-top : 5.0px;
+      margin-bottom : 2.0px;
+Å@Å@color : black;}
+
+H3.STEP { font-size : 12.0px;
+      line-height : 16.0px;
+      margin-top : 5.0px;
+      margin-bottom : 3.0px;}
+
+OL { font-size : 12.0px;
+      line-height : 17.0px;
+      margin-left : 25.0px;
+      margin-top : 12.0px;
+}
+
+OL.LST
+ { font-size : 12.0px;
+      line-height : 17.0px;
+      margin-left : 25.0px;
+      margin-top : 3.0px;
+}
+
+LI.step { margin-top : 5.0px;
+}
+
+LI.Z {margin-top : -2.0px;}
+
+LI.lst {margin-top : -10.0px;}
+
+LI {margin-top : 5.0px;}
+
+UL { margin-left : 15.0px;
+margin-top : 0px;
+margin-bottom : 0px;}
+
+TABLE { font-size : 12.0px;
+      line-height : 15.0px;
+      border-width : 1.0px;
+      border-color : black;
+      border-style : none;
+      margin-right : 10px;
+      margin-top : 10px;
+      margin-bottom : 10px;
+      text-align: left;}
+
+TABLE.TRMK {
+	margin-left : 0px;
+	margin-right : 0px;
+	border-style : SOLID;
+	border-width : 1.0px
+}
+
+
+TABLE.NULL {
+	margin-left : 0px;
+	margin-right : 0px;
+	margin-top : 0px;
+	margin-bottom : 0px;
+	border-width : 0.0px
+}
+
+
+TR {
+	color : black;
+	text-align : left;
+	vertical-align : top;
+	border-width : 1.0px}
+
+
+TD.NULL {
+	margin-left : 0px;
+	margin-right : 0px;
+	border-width : 0.0px}
+
+
+TD.BDY {
+	vertical-align : top; 
+	width : 75%;
+	margin-left : 0px;
+	margin-right : 0px;
+	border-width : 0.0px;
+	color : BLACK}
+
+
+TD.CNT {width : 25%;
+	vertical-align : top;
+	margin-left : 0px;
+	margin-right : 0px;
+	border-top-style : none;
+	border-bottom-style : none;
+	border-left-style : none;
+	border-right-style : none;
+	border-width : 1.0px;
+	border-color : black;
+	padding : -80px}
+
+TD {	font-weight : normal;
+	border-style : SOLID;
+	border-width : 1.0px;
+	border-color : black;
+	padding : 5.0px}
+
+TD.1 {	width : 45%;
+	font-weight : normal;
+	border-style : SOLID;
+	border-width : 1.0px;
+	border-color : black;
+	padding : 5.0px}
+
+TD.2 {	width : 45%;
+	font-weight : normal;
+	border-style : SOLID;
+	border-width : 1.0px;
+	border-color : black;
+	padding : 5.0px}
+
+TD.3 {	font-weight : normal;
+	border-style : SOLID;
+	border-width : 1.0px;
+	border-color : black;
+	padding : 5.0px}
+
+TH { font-weight :bold;
+	border-style : SOLID;
+      background-color : #C0C0C0;
+      border-width : 1.0px;
+      border-color : black;
+      padding : 5.0px;}
+
+.LMINUS {margin-left : -3px;}
+
+.SPACER { margin-top : 5px;
+	  margin-bottom : 10px}
+
+.MINUS { margin-top : -15px;
+	  margin-bottom : -15px}
+
+DIV.EOF {margin-bottom : 50.0px;}
+
+DD {margin-left : 15.0px;}
+
+BLOCKQUOTE {
+	margin-top : 0px;
+	margin-bottom : 0px}

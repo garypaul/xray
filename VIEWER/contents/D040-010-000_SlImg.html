@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="jp">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>操作する画像を選ぶ／複数の画像を同時に操作する（連動）</title>
+</head>
+<body>
+	<h1>操作する画像を選ぶ／複数の画像を同時に操作する（連動）</h1>
+	<div class="area_section">
+		<div class="area_txt">
+			<div class="area_para">
+				<p>トーンの変更や画像の回転など、ビューワで操作する対象のセルを選ぶ必要があります。 選びかたに応じて、セルにはカレントと選択の2種類の状態があります。</p>
+				<ul class="list_item">
+						<li>カレント状態とは、セルに表示されている1枚、または、セル（シリーズ）内のすべての画像を操作するために選択された状態です。この状態から、
+						<a href="./contents/D040-030-000_MovImg.html" class="link_to_other_cont">画像の移動</a>、
+						<a href="./contents/D040-040-000_ZmImg.html" class="link_to_other_cont">拡大／縮小</a>、
+						<a href="./contents/D040-020-000_AdjTne.html" class="link_to_other_cont">トーンの調整</a>、
+						<a href="./contents/D040-050-000_SelROI.html" class="link_to_other_cont">領域の選択</a>などができます。</li>
+				</ul>
+			</div><!--/area_para-->
+			<div class="area_para">
+				<h2>参考</h2>
+				<ul class="list_item">
+					<li>領域の選択はセルに表示されている画像に対してのみ有効です。その他の上記の操作は、シリーズ内すべての画像が対象になります。</li>
+					<li>スライスラインは、相互に交差する画像がある場合に自動的に表示されます。ただし、手動で表示／非表示を切り替えることはできません。また、カレント状態のセルには、スライスラインは表示されません。</li>
+					<li>選択状態とは、複数のシリーズを同時に操作するために選択された状態です。選択状態のセルには、<a href="./contents/D040-020-000_AdjTne.html" class="link_to_other_cont">明るさ／コントラスト（WW/WL）の調整</a>のみができます。</li>
+					<li>カレント状態のセルと撮影位置が近いセルは、カレント状態のセルと連動して表示されます。</li>
+				</ul>
+			</div><!--/area_para-->
+			<div class="area_para">
+				<h2>セルをカレントにする</h2>
+				<p>選択したいセルをクリックします。セルが緑色の枠で囲まれ、カレント状態になります。カレントのセルは、枠の左上に黄色く塗りつぶされた丸いマーク（<img src="./contents/images/D040-010-000_01.png" width="15" height="15" alt="カレントセルの丸いマークのスクリーンショット" />）が付きます。</p>
+			</div><!--/area_para-->
+			<div class="area_para">
+				<h2>複数のセルを選ぶ</h2>
+				<p>Ctrlキーを押しながらカレント以外のセルをクリックします。クリックしたセルがカレント状態になり、直前にカレントだったセルが選択状態になります。選択状態のセルは枠の左上に黄色く縁どりされた丸いマーク（<img src="./contents/images/D040-010-000_02.png" width="15" height="15" alt="選択状態のセルの丸いマークのスクリーンショット" />）が付きます。</p>
+				<div class="area_image">
+					<img src="./contents/images/D040-010-000_03.png" class="w80" alt="セルの選択状態を指示したスクリーンショット" />
+				</div>
+			</div><!--/area_para-->
+			<div class="area_para">
+				<h2>すべての画像を選択する</h2>
+				<p>Ctrlキーを押しながらAキーを押すか、または「編集」メニューの「すべてのビューの選択」を選択すると、すべてのセルが選択状態になります。</p>
+			</div><!--/area_para-->
+			<div class="area_para">
+				<h2>選択を解除する</h2>
+				<p>「編集」メニューの「すべてのビューの選択を解除」を選びます。<br />操作後は、先頭の（左上の）セルがカレント画像になります。</p>
+			</div>
+		</div><!--/area_txt-->
+	</div><!--/area_section-->
+<script src="./js/jquery.js" type="text/javascript"></script>
+<script src="./js/contents.js" type="text/javascript"></script>
+</body>
+</html>

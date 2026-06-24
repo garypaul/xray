@@ -1,0 +1,68 @@
+/* layout_contents.css */
+
+/* I090-010-000_PageLogin.html */
+.area_image .area_cap_I090-010-000_01 {
+	}
+    #cap_I090-010-000_01_input_user {
+		width: 28%;
+        margin: 0 20% 0 16%;
+        }
+    #cap_I090-010-000_01_input_pass {
+        width: 28%;
+        margin: 0 6% 0 16%;
+    }
+/* I090-020-000_PageLogout.html */
+.area_image .area_cap_I090-020-000_01 {
+    text-align: right;
+    }
+	#cap_I090-020-000_01_help {
+		margin: 0 10% 0 0;
+		}
+    #cap_I090-020-000_01_btn_relogin {
+        margin: 0 50% 0 0;
+        }
+/* I090-030-000_PageDefault_JPN.html */
+    #sign-cap_I090-030-000_01_main_window { /* A */
+        margin: 0 22% 0 34%;
+    }
+    #sign-cap_I090-030-000_01_manage_users { /* B */
+        margin: 0 11% 0 0;   
+    }
+     #sign-cap_I090-030-000_01_license { /* C */
+        margin: 0 13% 0 0;   
+    }
+    #sign-cap_I090-030-000_01_search_area { /* H */
+        margin: 0 6% 0 20%;   
+    }
+    #sign-cap_I090-030-000_01_update_state_tab { /* G */
+        margin: 0 19% 0 0;
+    }
+    #sign-cap_I090-030-000_01_password_change { /* F */
+        margin: 0 13% 0 0;
+    }
+/* I090-040-000_PageDefault_JPNSearch.html */
+.area_image .area_cap_I090-040-000_01 {
+    text-align: right;
+    }
+    #sign-cap_I090-040-000_01_search_key_area { /* B */
+        margin: 0 0 0 18%;
+    }
+    #sign-cap_I090-040-000_01_clear_btn { /* C */
+        margin: 0 0 0 25%;
+    }
+    #sign-cap_I090-040-000_01_help { /* D */
+        margin: 0 12% 0 11%; 
+    }
+    #sign-cap_I090-040-000_01_disc_create_btn { /* E */
+        margin: 0 22% 0 6%;
+    }
+    #sign-cap_I090-040-000_01_urgent_checkbox { /* F */
+        margin: 0 0 0 5%;
+    }
+    #sign-cap_I090-040-000_01_setting_dropdown { /* G */
+        margin: 0 0 0 9%;
+    }
+    #sign-cap_I090-040-000_01_search_btn { /* H */
+        margin: 0 0 0 25%;
+    }
+

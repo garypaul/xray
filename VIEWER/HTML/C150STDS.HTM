@@ -1,0 +1,47 @@
+<HTML>
+<LINK REL="StyleSheet" HREF="SMC.CSS">
+<HEAD><META HTTP-EQUIV="content-type" CONTENT="text/html;charset=x-sjis;text/javascript"> 
+
+<TITLE>診断画像ディスクのヘルプ</TITLE>
+</HEAD>
+<BODY LEFTMARGIN="0" TOPMARGIN="0">
+
+<A NAME="Top"></A>
+<H1>計測の基準となる長さを設定する</H1>
+
+<DIV CLASS="PAGE">
+
+DICOM属性にPixel Spacing情報が設定されていない場合、基準となる長さを登録することにより、実測値を測ることができます。 
+<H3 CLASS="COL">参考</H3>
+<UL >
+<LI CLASS="Z">Pixel Spacing情報があらかじめ存在していても、ここで設定した情報が優先されます。
+<LI CLASS="Z">登録した基準の長さは、ビューワを終了すると無効になります。
+<!--登録した基準の長さは、ビューワを閉じても、取り消し操作を行うまで記憶されたままです。-->
+</UL>
+
+<OL>
+<B><LI>距離ツールで基準となる線分の<A HREF="C100ANLS.HTM" TARGET="BDY">長さを計測</A>する。</B><BR>
+<B><LI>計測後、目的の線分が選択された状態で<A HREF="R130INFO.HTM" TARGET="BDY">インフォメーションパレット</A>の「基準」ボタンをクリックする。</B><BR>
+ 「基準設定」ダイアログボックスが開きます。
+<B><LI>「基準の線分の長さ」入力ボックスに選択した線分の実際の長さを入力し、右のリストボックスから長さの単位を選択する。 </B><BR>
+<B><LI>「OK」ボタンをクリックする。</B><BR>
+設定した長さが適用され、その画像での測定は、その長さを基準として実際の長さが算出されます。
+</OL>
+
+ 
+<H2>基準設定を解除する</H2>
+<OL>
+<B><LI CLASS="LST">基準の長さが設定されている状態で、<A HREF="R130INFO.HTM" TARGET="BDY">インフォメーションパレット</A>の「基準」ボタンをクリックする。</B><BR>
+「基準設定」ダイアログボックスが開きます。
+<B><LI>「設定済みの基準の取り消し」ボタンをクリックする。</B><BR>
+設定した基準の長さが解除されます。
+</OL>
+
+<Form><Input type=button value="戻る" onClick="javascript:history.go(-1)">
+<!--<A HREF="#top"><Form><Input type=button value="ページ先頭に戻る" onClick=""></A>--></Form>
+
+</DIV>
+<DIV CLASS="EOF">
+</DIV>
+</BODY>
+</HTML>

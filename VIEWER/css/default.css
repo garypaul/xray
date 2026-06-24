@@ -1,0 +1,47 @@
+﻿/* default.css */
+
+
+/* 初期化 --------------------------------------- */
+html, body {
+    height: 100%;
+    }
+
+address, body, div, form, input, fieldset, h1, h2, ul, li, dl, dt, dd, p, table, thead, tbody, tr, th, td {
+    margin: 0;
+    padding: 0;
+}
+a,
+a img {
+	border: none;
+	text-decoration: none;
+	outline: none;
+	}
+address {
+    font-style: normal;
+    }
+img {
+	vertical-align: text-bottom;
+	}
+
+table {
+    border-collapse: collapse;   
+}
+
+/* helper --------------------------------------- */
+.pkg:after {
+	clear: both;
+	display: block;
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+	content: " ";
+	}
+* html .pkg { display: inline-block; }
+/* no ie mac \*/
+* html .pkg { height: 1%; }
+.pkg { 
+	zoom: 1;
+	display: block;
+	}
+/* */

@@ -1,0 +1,151 @@
+﻿@charset "UTF-8";
+/* common.css for help （本体と設定ツール共通） */
+
+body {
+    background: #f0faff;
+    color: #545454;
+}
+
+/* 外枠 */
+#container_table {
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif, 'メイリオ','Meiryo', "ＭＳ Ｐゴシック",Osaka,"ヒラギノ角ゴ Pro W3";
+    }
+    #container_table td {
+        vertical-align: top;
+    }
+    #cell_toc {
+        position: relative;
+        width: 29%;
+        background: #415f96;   
+    }
+    *html #cell_toc /* for IE6 */ 
+    {
+    	width: 220px; /* コンテンツのエリアが目次のエリアにはみ出すのを回避 */
+	}
+    .close_toc
+    {
+        display: none;   
+    }
+    #cell_contents {
+        color: #545454;
+    }
+
+/* 目次 */
+#area_toc {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 30%;
+    font-size: 81.25%;
+    line-height: 1.5;
+    overflow: auto; /* スクロールバー表示用 */
+    }
+*html #area_toc {
+    width: 220px;
+    }
+#area_toc_inner {
+    padding: 12px;
+    }
+     #area_toc ul {
+        list-style-type: none;   
+        }
+        #area_toc li {
+            margin: 0 0 6px;   
+            }
+    /* 第2階層 */
+    .toc_level2 
+    {
+       padding: 6px 0 3px 24px;
+    }
+    .close_l2 
+    {
+        display: none;    
+    }
+    /* リンク */
+    #area_toc a 
+    {
+        color: #fff;
+        cursor: pointer;
+    }
+    #area_toc a:hover 
+    {
+        color: #33d0ef;   
+    }
+    #area_toc a.current 
+    {
+        color: #33d0ef;   
+    }
+
+
+/* コンテンツ */
+#area_contents {
+    font-size: 81.25%;
+    line-height: 1.5;
+    /*overflow: auto;*/ /* スクロールバー表示用 */
+    }
+*:first-child+html #area_contents {
+    position: relative; /* IE7でコンテンツ部分にスクロールバーが表示されてもスクロールしない不具合の対応 */
+}
+    #area_contents_inner {
+        position: relative;
+        }
+    /* ヘッダー */
+    #header_contents 
+    {
+        position: relative;
+        }
+        /* ボタン */
+        #area_control {
+            list-style-type: none;
+            padding: 6px 0 0;
+            }
+            #area_control li {
+                width: 6em;
+                }
+                #area_control li a {
+                    display: block;
+                    padding: 2px 10px 2px 8px;
+                    background: #415f96;
+                    color: #fff;
+                    cursor: pointer;
+                    }
+                #area_control li a:hover {
+                    background: #33d0ef;
+                    }
+            /* 目次ボタン */
+            #btn_toc {
+                float: left;
+                }
+                #btn_toc a {
+                    -webkit-border-top-right-radius: 3px;
+                    -webkit-border-bottom-right-radius: 3px;
+                    -moz-border-radius-topright: 3px;
+                    -moz-border-radius-bottomright: 3px;
+                }
+            /* 戻るボタン */
+            #btn_back {
+                float: right;
+                }
+                #area_control li#btn_back a 
+                {
+                    background: none;
+                    color: #415f96;
+                }
+                #area_control li#btn_back a:hover {
+                    color: #33d0ef;
+                } 
+            .hide_btn {
+                display: none;
+                }
+        
+    /* 本文 */
+    #area_entry {
+        padding: 12px 0 0;
+        }
+/* utility ----- */
+.dsp_none {
+	display: none;
+	}

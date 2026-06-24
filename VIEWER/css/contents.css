@@ -1,0 +1,260 @@
+﻿/* contents.css（本体と設定ツール共通） */
+
+/* 見出し */
+
+#area_entry h1 
+{
+    margin: 0 0 18px;
+    padding: 2px 2px 2px 8px;
+    font-size: 1.4em;
+}
+
+/* 画面説明　ページ内セクション --------------------------------------- */
+
+.area_section,
+.area_section_pageparts
+{
+    margin: 0 0 24px;
+}
+    .area_image 
+    {
+        margin: 0 0 18px;
+        text-align: center;   
+        }
+		/* 画像の幅 */
+		.area_image .w80 {
+			width: 80%;
+			}
+		.area_image .w60 {
+			width: 60%;
+			}
+		/* 画像キャプション */
+        .area_image .area_caption {
+            text-align: left;   
+        }
+	/* テキスト */
+    .area_txt {
+        padding: 6px;
+        }
+        .area_para 
+        {
+            margin: 18px 18px 32px;   
+        }
+            .area_para h2 {
+                margin: 0 0 6px;
+                font-size: 1.1em;
+                font-weight: 600;   
+            }
+            .area_para h3 {
+               margin: 0 0 4px;
+               font-size: 1em;
+               font-weight: 600;
+            }
+            .area_para p 
+            {
+                margin: 0 0 6px;
+            }
+            .area_para_display_none { /* キャプションクリックで、カレント以外非表示にするクラス */
+                display: none;
+            }
+           .area_para .area_procedure { /* 手順 */
+                font-weight: 600;
+                }
+                .area_para .area_procedure .fw-500 { /* font-weightを細くするクラス */
+                    font-weight: 500;
+                    }
+                .area_procedure li {
+                    margin: 0 0 12px;
+                    }
+                    .list_item { /* リスト */
+                        list-style-type: disc;
+                        padding: 6px 0 6px 2em;   
+                        }
+                    .area_procedure .list_item { /* 手順内リスト */
+                        padding: 6px 0 6px 1em;
+                        font-weight: 500;  
+                        }
+                    .area_procedure .area_image .list_item { /* 手順内、画像エリア内リスト */
+                        padding: 6px 0 0 1em;    
+                        }
+                        .area_image .list_item li:last-child { /* 画像エリア内リストの最後の項目 */
+                            margin-bottom: 0;
+                            }
+                        .list_item img.list_item_header_img { /* リストの画像の見出し */
+                            vertical-align: middle;
+                            }
+                        .list_item_l2  { /* 第2階層 */
+                            list-style-type: circle;
+                            padding: 0 0 0 1em;
+                            }
+                            .list_item_l3 { /* 第3階層 */
+                                list-style-type: none;
+                                padding: 0 0 0 2em;
+                            }
+                        .table_plane { /* プレーンなテーブルリスト */
+                            width: 100%;
+                            }
+                            .table_plane th {
+                                width: 30%;
+                                padding: 3px 2px;
+                                text-align: left;
+                                vertical-align: top;
+                                }
+                    .area_procedure li p 
+                    {
+                        margin: 0 0 6px;
+                        }
+                         .area_procedure li p img, /* 手順内画像 */
+                         .list_item li p img { /* リスト内画像 */
+                            margin: 0 2px;
+                            /*border: 1px solid #ccc;*/
+                         }
+                   .area_para .area_image { /* 段落内スクリーンショットエリア */
+                       padding: 6px 0;
+                       font-weight: 500;
+                       text-align: left;    
+                       }
+                       .area_para .area_image .area_caption { /* 段落内スクリーンショットエリア */
+                            margin: 2px 0;    
+                            }
+                            .area_procedure li .area_image p img { /* 手順内スクリーンショット画像上書き */
+                                border: none;
+                                }
+                       .area_para .area_image .para_img_no-cap { /* キャプションなし画像用pタグ */
+                            margin: 0 0 12px 0;
+                            }
+                    .area_procedure_sub { /* サブ手順 */
+                        padding: 0 0 6px 18px;
+                        font-size: 0.9em;
+                        }
+                    *:first-child+html .area_procedure_sub { /* for IE7 */
+                        margin: 0 0 0 18px;
+                        padding: 0 0 6px 0;
+                        }
+        /* インデント */
+        .indent_3 {
+            padding: 0 0 0 3em;
+            text-indent: -3em;
+            }
+        /* イタリック */
+        .italic {
+            font-style: italic;
+        }
+        /* table共通 */
+        .area_table {
+            padding: 2px;
+            border: 1px solid #ccc;
+            border-collapse: separate;
+            border-spacing: 0;
+            }
+            .area_table thead {
+                background: #ccc;
+                }
+            .area_table tbody {
+                }
+                #area_entry .area_table th, 
+                #area_entry .area_table td {
+                    padding: 2px;
+                    vertical-align: middle;
+                    }
+                .area_table th {
+                    text-align: left;
+                }
+                .area_table td 
+                {
+                    border-right: 1px dotted #ccc;
+                    border-bottom: 1px dotted #ccc;
+                }
+    	/* フォントの高さより画像の高さが小さい場合の調整 */
+		.area_para img.va_txttop {
+			vertical-align: text-top;
+			}
+		.area_para img.va_middle {
+			vertical-align: middle;
+			}
+
+    /* キャプション共通 */
+    .area_image .area_caption {
+        margin: 2px auto;
+        }
+	*:first-child+html .area_image .area_caption { /* for IE7 */
+		zoom: 1; /* haslayoutをonにしないと、1つ目の子a要素の左マージンが0になり、ウィンドウサイズの変更で、効いたり効かなかったりする現象が起こる。 */
+		}
+    .area_procedure .area_image .area_caption { /* 手順内の画像のキャプション */
+        }
+        .area_caption a,
+        .area_caption span {
+            display: inline-block;   
+            }
+        *:first-child+html .area_caption a,
+        *:first-child+html .area_caption span { /* for IE7 */
+            display: inline;
+            zoom: 1;
+            }
+        *html .area_caption a
+        *html .area_caption span { /* for IE6 */
+            display: inline;
+            zoom: 1;
+            }
+        /* キャプションリスト（数が多い場合） */
+        .area_image .list_caption {
+            list-style-type: none;
+            width: 80%;
+            margin: 0 auto;
+            padding: 12px 0;
+            text-align: left;   
+            }
+            .area_image .list_caption li {
+                padding: 0 0 0 1em;
+                text-indent: -1em;
+            }
+        
+    /* すべて表示 */
+    .area_btn_show_allparas {
+        text-align: right;   
+    }
+        .area_btn_show_allparas a.btn_show_allparas {
+            display: inline-block;
+            padding: 1px 4px;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+            background: #A1d6dc;
+            color: #fff;
+            text-decoration: none;
+        }
+        *:first-child+html .area_btn_show_allparas a { /* for IE7 */
+            display: inline;
+            zoom: 1;
+        }
+        *html .area_btn_show_allparas a
+        { /* for IE6 */
+            display: inline;
+            zoom: 1;
+        }
+        .area_txt .area_btn_show_allparas a:hover
+        {
+            background: #33d0ef;
+            color: #fff;
+            text-decoration: none;
+        }
+        /* 非表示のクラス */
+        .not_allparas 
+        {
+            display: none;   
+        }
+    /* リンク */
+    .area_section a,
+    .area_section_pageparts a {
+        color: #a16552;
+        cursor: pointer;   
+    }
+    .area_section a:hover,
+    .area_section_pageparts a:hover {
+        text-decoration: underline;
+    }
+    /* カレント */
+    .area_section_pageparts .area_image a.current 
+    {
+        color: #33d0ef;
+    }

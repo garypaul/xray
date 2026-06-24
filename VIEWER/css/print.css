@@ -1,0 +1,38 @@
+﻿/* print.css（印刷用：本体と設定ツール共通） */
+
+/* 背景色 */
+body {
+    background: none;
+    }
+/* 全体のtable */
+#container_table {
+    width : 600px;
+}
+/* 目次 */
+#cell_toc {
+    display: none;
+    }
+/* コンテンツ */
+#cell_contents {
+}
+#area_contents {
+}
+
+/* 目次・戻るボタン非表示 */
+#area_control {
+    display: none;
+}
+/* キャプション　カレントのカラーをノーマル */
+.area_section_pageparts .area_image a.current {
+    color: #A16552;
+}
+
+/* すべて表示ボタン　非表示 */
+.area_btn_show_allparas {
+    display: none;
+}
+
+/* 説明部分は常に表示 */
+.area_para_display_none {
+    display: block;
+}

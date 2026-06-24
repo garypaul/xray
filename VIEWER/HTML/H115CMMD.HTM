@@ -1,0 +1,280 @@
+<HTML>
+<LINK REL="StyleSheet" HREF="SMC.CSS">
+<HEAD><META HTTP-EQUIV="content-type" CONTENT="text/html;charset=x-sjis;text/javascript"> 
+
+
+<TITLE>診断画像ディスクのヘルプ</TITLE>
+</HEAD>
+<BODY LEFTMARGIN="0" TOPMARGIN="0">
+
+<A NAME="Top"></A>
+<H1>コマンド一覧</H1>
+
+<DIV CLASS="PAGE">
+
+
+青字のタイトルをクリックすると、下位の項目の表示／非表示が切り替わります。<BR><BR>
+
+	<SPAN onClick="document.all.ITEM001.style.display = (document.all.ITEM001.style.display == 'none') ?'' : 'none'"><H2 CLASS="TOP">「ファイル」メニュー</H2></SPAN>
+	
+	<DIV ID= "ITEM001" STYLE= "display:all">
+	<UL>
+	<LI><B>「すべての画像をファイル出力」</B><BR>
+		表示されているすべての画像をファイルに書き出します。
+	<LI><B>「選択画像をファイル出力」</B><BR>
+		選択画像をファイルに書き出します。<!--画像を右クリックして表示されるメニューから「この画像をファイル出力」を選択しても同じことができます。-->
+	<LI><B>「カレント画像をファイル出力」</B><BR>
+		選択されたカレント画像をファイルに書き出します。画像を右クリックして表示されるメニューから「この画像をファイル出力」を選択しても同じことができます。
+	<LI><B>「閉じる」</B><BR>
+		ビューワの画面を閉じます。閉じるボタン（<IMG SRC="../IMG/CLOSE.png">）をクリックしても同じことができます。
+	</UL>
+	</DIV>	
+
+	<SPAN onClick="document.all.ITEM002.style.display = (document.all.ITEM002.style.display == 'none') ?'' : 'none'"><H2 CLASS="COL">「編集」メニュー</H2></SPAN>
+	
+	<DIV ID= "ITEM002" STYLE= "display:all">
+	<UL>
+	<LI><B>「画像表示リセット」</B><BR>
+		画像の明るさ、コントラスト、回転などの表示状態を、最初に開いた時点に戻します。<BR>
+	→ <A HREF="B100BRCT.HTM" TARGET="BDY">明るさ・コントラスト（トーン）を調整する</A>
+	<LI><B>「コピー」</B><BR>
+		領域指定されている範囲の画像データをクリップボードにコピーします。
+	<LI><B>「切り抜き」</B><BR>
+		領域指定されている範囲のみを残して画像を切り取ります。<BR>
+	→ <A HREF="B140SLCT.HTM" TARGET="BDY">領域を選択する／切り抜く</A>
+	<LI><B>「画像全体を指定」</B><BR>
+		選択されている画像の全体を対象領域にします。<BR>
+	→ <A HREF="B140SLCT.HTM" TARGET="BDY">領域を選択する／切り抜く</A>
+	<LI><B>「対象領域の解除」</B><BR>
+		指定している対象領域を解除します。<BR>
+	→ <A HREF="B140SLCT.HTM" TARGET="BDY">領域を選択する／切り抜く</A>
+	<LI><B>「すべてのビューを選択」</B><BR>
+		ビューワで開いているすべての画像を選択画像にします。<BR>
+	→ <A HREF="B110SLCT.HTM" TARGET="BDY">操作する画像を選ぶ／複数の画像を同時に操作する（連動）</A>
+	<LI><B>「すべてのビューの選択を解除」</B><BR>
+		ビューワで開いているすべての画像の選択を解除します。<BR>
+	→ <A HREF="B110SLCT.HTM" TARGET="BDY">操作する画像を選ぶ／複数の画像を同時に操作する（連動）</A>
+	<LI><B>「右90度回転」</B><BR>
+		ビューワで開いている画像を時計回りに90度回転させます。<A HREF="R120TLBR.HTM" TARGET="BDY">ツールバー</A>の「90°右回転」ボタンと同じ機能です。
+	<LI><B>「左90度回転」</B><BR>
+		ビューワで開いている画像を反時計回りに90度回転させます。<A HREF="R120TLBR.HTM" TARGET="BDY">ツールバー</A>の「90°左回転」ボタンと同じ機能です。
+	<LI><B>「水平反転」</B><BR>
+		ビューワで開いている画像を横に反転させます。<A HREF="R120TLBR.HTM" TARGET="BDY">ツールバー</A>の「左右反転」ボタンと同じ機能です。
+	<LI><B>「垂直反転」</B><BR>
+		ビューワで開いている画像を縦に反転させます。<A HREF="R120TLBR.HTM" TARGET="BDY">ツールバー</A>の「上下反転」ボタンと同じ機能です。
+	<LI><B>「画像のソート」</B><BR>
+		画像の表示順序を変更します。<BR>
+	→ <A HREF="R100VSET.HTM" TARGET="BDY">ビューワの表示設定</A>
+	</UL>
+	</DIV>	
+
+	<SPAN onClick="document.all.ITEM003.style.display = (document.all.ITEM003.style.display == 'none') ?'' : 'none'"><H2 CLASS="COL">「表示」メニュー</H2></SPAN>
+
+	<DIV ID= "ITEM003" STYLE= "display:all">
+	<UL>
+	<LI><B>「全体表示」</B><BR>
+	画像全体がビューエリア全体に入るように自動的に調整し画像を表示します。（表示
+される画像のサイズはウィンドウの大きさによって異なります。）<BR>
+	→ <A HREF="B130ZOOM.HTM" TARGET="BDY">画像を拡大する／縮小する</A>
+	<LI><B>「マーキー表示」</B><BR>
+	領域指定ツールで指定した対象領域をウィンドウ全体に拡大して表示します。<BR>
+	→ <A HREF="B130ZOOM.HTM" TARGET="BDY">画像を拡大する／縮小する</A>
+	<LI><B>「1対1表示」</B><BR>
+	画面の1ピクセルと画像データ上の1ピクセルが対応したサイズで画像を表示します。（表示される画像のサイズは、ディスプレイの解像度によって異なります。）<BR>
+	→ <A HREF="B130ZOOM.HTM" TARGET="BDY">画像を拡大する／縮小する</A>
+	<LI><B>「トーンカーブの最適化」</B><BR>
+	トーンカーブを、領域指定ツールで指定した領域に最適化します。<BR>
+	→ <A HREF="B140SLCT.HTM" TARGET="BDY">領域を選択する／切り抜く</A>
+	<LI><B>「トーンカーブの反転」</B><BR>
+	表示している画像のトーンカーブの白と黒を入れ替えます。<BR>
+	→ <A HREF="B100BRCT.HTM" TARGET="BDY">明るさ・コントラスト（トーン）を調整する</A>
+	<LI><B>「倍率をフレームに対する割合で維持」</B><BR>
+	ビューワのフレーム内に画像全体が表示されるように自動的に倍率を調節します。
+	<LI><B>「アノテーションレイヤを表示」</B><BR>
+	画像に付けられたアノテーション（注釈）を表示します。<BR>
+	→ <A HREF="C110ANOT.HTM" TARGET="BDY">画像にアノテーションを付ける</A><BR>
+	→ <A HREF="R100VSET.HTM" TARGET="BDY">ビューワの表示設定</A><BR>
+	<LI><B>「情報を重ねて表示」</B><BR>
+	患者氏名、患者IDなどの情報を、画像と重ねて表示します。<BR>
+	→ <A HREF="R100VSET.HTM" TARGET="BDY">ビューワの表示設定</A>
+	<LI><B>「スケールを表示」</B><BR>
+	スケールを画像と重ねて表示します。<BR>
+	→ <A HREF="R100VSET.HTM" TARGET="BDY">ビューワの表示設定</A>
+	<LI><B>「カレントビューの表示属性をコピー」</B><BR>
+	選択した画像（カレント画像）の表示属性（<A HREF="B120MOVE.HTM" TARGET="BDY">移動</A>、<A HREF="B130ZOOM.HTM" TARGET="BDY">ズーム</A>、<A HREF="B100BRCT.HTM" TARGET="BDY">トーン</A>の情報）をコピーします。コピーされた表示属性は、「表示属性の貼り付け」によって任意の画像にペーストできます。
+	<LI><B>「表示属性を貼り付け」</B><BR>
+	「カレントビューの表示属性をコピー」でコピーした画像の表示属性をペーストします。
+	<LI><B>「最初のビューにジャンプ」</B><BR>
+	開いている最初の画像を表示して選択状態（カレント画像）にします。
+	<LI><B>「最後のビューにジャンプ」</B><BR>
+	開いている最後の画像を表示して選択状態（カレント画像）にします。
+	<LI><B>「カレントビューのみ表示」</B><BR>
+	ビューエリアにカレント画像のみ表示します。この表示を解除するには、「フレーム」メニューから、表示するフレームの枚数を指定します。
+	<LI><B>「サムネイル」</B><BR>
+	サムネイルの表示／非表示を切り替えます。
+	<LI><B>「DICOM属性」</B><BR>
+	DICOM属性の表示／非表示を切り替えます。
+	<LI><B>「補間方法」</B><BR>
+	画像補間の方法を、「ニアレストネーバー（最近傍：補間なし）」、「バイリニア（双一次）」、「バイキュービック（双三次）」から選択します。<BR>
+	→ <A HREF="R100VSET.HTM" TARGET="BDY">ビューワの表示設定</A><BR>
+	<LI><B>「シリーズ連動」</B><BR>
+	シリーズ連動のオン／オフを切り替えます。オンにすると、同一シリーズの画像の移動・拡大・トーンなどの操作を同時に行います。<BR>
+	→ <A HREF="B110SLCT.HTM" TARGET="BDY">操作する画像を選ぶ／複数の画像を同時に操作する（連動）</A>
+	<LI><B>「実寸表示の設定」</B><BR>
+	画像を実寸で表示する際の基準の長さを調整します。実寸で表示するには、あらかじめここで調整を行ってから、インフォメーションパレットの「倍率」ドロップダウンリストで「実寸」を選択します。<BR>
+	→ <A HREF="B130ZOOM.HTM" TARGET="BDY">画像を拡大する／縮小する</A>
+	</UL>
+	</DIV>	
+
+	<SPAN onClick="document.all.ITEM004.style.display = (document.all.ITEM004.style.display == 'none') ?'' : 'none'"><H2 CLASS="COL">「フレーム」メニュー</H2></SPAN>
+
+	<DIV ID= "ITEM004" STYLE= "display:all">
+	<UL>
+	<LI><B>「1x1」、「1x2」、「1x3」、「2x1」、「2x2」、「2x3」、「3x3」、「3x4」、「4x3」、「4x4」、「4x5」、「5x4」、「5x5」、「6x6」、「7x7」、「8x8」</B><BR>
+	一度に表示する画像のフレーム数を各項目から選んで指定します。<BR>
+	→ <A HREF="R100VSET.HTM" TARGET="BDY">ビューワの表示設定</A><BR>
+	→ <A HREF="R160VARA.HTM" TARGET="BDY">ビューエリア</A>
+	<LI><B>「直接指定」</B><BR>
+	一度に表示する画像のフレーム数を直接入力して指定します。<BR>
+	→ <A HREF="R100VSET.HTM" TARGET="BDY">ビューワの表示設定</A>
+	<LI><B>「ビューの多表示」</B><BR>
+	一度に表示する画像のフレーム数を、ディスク作成時のフレーム設定に戻します。<BR>
+	ただし、ディスク作成時のフレーム設定が、横1行または縦1列の場合は、すべて「4x4」に設定されます。<BR>
+	→ <A HREF="R100VSET.HTM" TARGET="BDY">ビューワの表示設定</A>
+	</UL>
+	</DIV>	
+
+	<SPAN onClick="document.all.ITEM005.style.display = (document.all.ITEM005.style.display == 'none') ?'' : 'none'"><H2 CLASS="COL">「分析」メニュー</H2></SPAN>
+
+	<DIV ID= "ITEM005" STYLE= "display:all">
+	<UL>
+	<LI><B>「水平プロファイル」</B><BR>
+	対象領域の濃淡の平均値の変化を、水平方向についてグラフ表示します。
+	<LI><B>「垂直プロファイル」</B><BR>
+	対象領域の濃淡の平均値の変化を、垂直方向についてグラフ表示します。
+	</UL>
+	</DIV>	
+
+	<SPAN onClick="document.all.ITEM006.style.display = (document.all.ITEM006.style.display == 'none') ?'' : 'none'"><H2 CLASS="COL">「ツール」メニュー</H2></SPAN>
+	
+	<DIV ID= "ITEM006" STYLE= "display:all">
+	<UL>
+	<LI><B>「移動・ズームツール」</B><BR>
+	ビューエリア内で画像をドラッグすることにより、画像を移動し、位置を調節します。<BR>
+	また、マウスの右ボタンを押したまま、上下方向にマウスを移動することにより、画像を拡大・縮小します。<BR>
+	→ <A HREF="B120MOVE.HTM" TARGET="BDY">画像を移動する</A><BR>
+	→ <A HREF="B130ZOOM.HTM" TARGET="BDY">画像を拡大する／縮小する</A>
+	<LI><B>「領域指定ツール」</B><BR>
+	表示している画像上に対象領域（ROI）を作成します。<BR>
+	→ <A HREF="B140SLCT.HTM" TARGET="BDY">領域を選択する／切り抜く</A>
+	<LI><B>「ズームツール」</B><BR>
+	ビューエリア内で画像を拡大・縮小します。<BR>
+	<LI><B>「トーンカーブツール」</B><BR>
+	画像上でマウスをドラッグすることにより、トーンの変更を行います。<BR>
+	マウスの左ボタンを押しながら左右に移動すると明るさ（Center値）を、上下に移動するとコントラスト（Width値）が変更されます。<BR>
+	また、マウスの右ボタンを押しながら左右に移動するとγ（ガンマ）値を、上下に移動するとβ（ベータ）値が変更されます。
+	<LI><B>「注釈選択ツール」</B><BR>
+	作成した線分や注釈などのオブジェクトを選択します。<BR>
+	→ <A HREF="C100ANLS.HTM" TARGET="BDY">画像を分析する</A>
+	<LI><B>「距離ツール」</B><BR>
+	画像上の任意の2点間の距離を測ります。<BR>
+	→ <A HREF="C100ANLS.HTM#1a" TARGET="BDY">画像を分析する</A>
+	<LI><B>「曲線の長さツール」</B><BR>
+	画像上の任意の曲線の長さを測ります。<BR>
+	→ <A HREF="C100ANLS.HTM#1b" TARGET="BDY">画像を分析する</A>
+	<LI><B>「3点角度ツール」</B><BR>
+	画像上の接する2つの線分間の角度を測ります。<BR>
+	→ <A HREF="C100ANLS.HTM#2a" TARGET="BDY">画像を分析する</A>
+	<LI><B>「4点角度ツール」</B><BR>
+	画像上に線分を2つ作成し、その2つの線分がなす角度を測ります。<BR>
+	→ <A HREF="C100ANLS.HTM#2b" TARGET="BDY">画像を分析する</A>
+	<LI><B>「多角形面積ツール」</B><BR>
+	多角形で閉じられた領域の面積を測ります。<BR>
+	→ <A HREF="C100ANLS.HTM#3a" TARGET="BDY">画像を分析する</A>
+	<LI><B>「閉曲線面積ツール」</B><BR>
+	曲線で囲まれた領域の面積を測ります。<BR>
+	→ <A HREF="C100ANLS.HTM#3b" TARGET="BDY">画像を分析する</A>
+	<LI><B>「心胸郭比ツール」</B><BR>
+	心胸郭比（CTR）を測ります。<BR>
+	→ <A HREF="C100ANLS.HTM#4b" TARGET="BDY">画像を分析する</A>
+	<LI><B>「長さの比ツール」</B><BR>
+	2つの線分の長さの比を測ります。<BR>
+	→ <A HREF="C100ANLS.HTM#4a" TARGET="BDY">画像を分析する</A>
+	<LI><B>「矢印＋文字ツール」</B><BR>
+	注釈つきの矢印を作成します。<BR>
+	→ <A HREF="C110ANOT.HTM" TARGET="BDY">画像にアノテーションを付ける</A>
+	<LI><B>「矢印ツール」</B><BR>
+	注目したい場所を指示するなどのために矢印を作成します。<BR>
+	→ <A HREF="C110ANOT.HTM" TARGET="BDY">画像にアノテーションを付ける</A>
+	</UL>
+	</DIV>	
+
+	<SPAN onClick="document.all.ITEM007.style.display = (document.all.ITEM007.style.display == 'none') ?'' : 'none'"><H2 CLASS="COL">「リスト操作」メニュー</H2></SPAN>
+
+	<DIV ID= "ITEM007" STYLE= "display:all">
+	<UL>
+	<LI><B>「前の画像セットへ」</B><BR>
+	（複数の検査画像が記録されている場合）前の診断画像を開きます。
+	<LI><B>「次の画像セットへ」</B><BR>
+	（複数の検査画像が記録されている場合）次の診断画像を開きます。
+	</UL>
+	</DIV>	
+
+	<SPAN onClick="document.all.ITEM008.style.display = (document.all.ITEM008.style.display == 'none') ?'' : 'none'"><H2 CLASS="COL">「ウィンドウ」メニュー</H2></SPAN>
+
+	<DIV ID= "ITEM008" STYLE= "display:all">
+	<UL>
+	<LI><B>「重ねて表示」</B><BR>
+	<!--ウィンドウを重ねて表示します。-->今回は使用しません。
+	<LI><B>「並べて表示」</B><BR>
+	<!--ウィンドウを並べて表示します。-->今回は使用しません。
+	<LI><B>「アイコンの整列」</B><BR>
+	<!--ビューエリアに最小化された複数のウィンドウがある場合、それらを整列して表示します-->今回は使用しません。
+	<LI><B>「情報表示なし」</B><BR>
+	<A HREF="R130INFO.HTM" TARGET="BDY">インフォメーションパレット</A>を非表示にします。
+	<LI><B>「情報簡略表示」</B><BR>
+	<A HREF="R130INFO.HTM" TARGET="BDY">インフォメーションパレット</A>を簡略表示します。
+	<LI><B>「情報中間表示」</B><BR>
+	<A HREF="R130INFO.HTM" TARGET="BDY">インフォメーションパレット</A>の簡略表示に加えて、倍率、長さ、濃淡などの値を表示します。
+	<LI><B>「情報詳細表示」</B><BR>
+	<A HREF="R130INFO.HTM" TARGET="BDY">インフォメーションパレット</A>を詳細表示します。
+	<LI><B>「基本ツール」</B><BR>
+	基本<A HREF="R120TLBR.HTM" TARGET="BDY">ツールバー</A>（「移動・ズーム」、「トーン」、「領域指定」、「リセット」、「シリーズ」ボタン）の表示／非表示を切り替えます。（簡易版ビューワでは、「移動・ズーム」、「トーン」、「リセット」ボタンが切り替えの対象となります。）
+
+	<LI><B>「タイムライン」</B><BR>
+	<A HREF="R190TMLN.HTM" TARGET="BDY">タイムライン</A>の表示／非表示を切り替えます。
+
+	<LI><B>「拡張ツール」</B><BR>
+	拡張<A HREF="R120TLBR.HTM" TARGET="BDY">ツールバー</A>（「全画像選択」、「選択画像」、「全体を指定」、「領域解除」、「90°右回転」、「90°左回転」、「左右反転」、「上下反転」、「比較モード」、「切り抜き」ボタン）の表示／非表示を切り替えます。（簡易版ビューワでは、「比較モード」ボタンが切り替えの対象となります。）
+	<LI><B>「オーバービューウィンドウ」</B><BR>
+	<A HREF="R140OVWD.HTM" TARGET="BDY">オーバービューウィンドウ</A>の表示／非表示を切り替えます。
+	<LI><B>「ステータスバー」</B><BR>
+	ステータスバーの表示／非表示を切り替えます。
+	<LI><B>「表示位置の整理」</B><BR>
+	各画面の表示位置を調整します。<BR>
+	→ <A HREF="R110SCRN.HTM" TARGET="BDY">画面各部の名称とはたらき</A><BR>
+	</UL>	
+	</DIV>
+
+	<SPAN onClick="document.all.ITEM009.style.display = (document.all.ITEM009.style.display == 'none') ?'' : 'none'"><H2 CLASS="COL">「シネモード」メニュー</H2></SPAN>
+
+	<DIV ID= "ITEM009" STYLE= "display:all">
+	<UL>
+	<LI><B>「シネモード」<BR></B>
+	同一シリーズの画像、および、マルチフレーム画像をシネ表示します。<BR>
+	→ <A HREF="C140CINE.HTM" TARGET="BDY">画像をシネ表示する</A>
+	</UL>
+	</DIV>	
+
+<BR>
+<Form><Input type=button value="戻る" onClick="javascript:history.go(-1)">
+<!--<A HREF="#top"><Form><Input type=button value="ページ先頭に戻る" onClick=""></A>--></Form>
+
+
+</DIV>
+
+<DIV CLASS="EOF">
+</DIV>
+
+</BODY>
+</HTML>
