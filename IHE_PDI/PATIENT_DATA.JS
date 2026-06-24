@@ -14,6 +14,6 @@ var patientList = new Array();
 			seriesList.push(new Series('MR', '1.2.392.200036.9116.4.2.7250.34023.8001', '9000', 24));
 			studyList.push(new Study('2025/08/14', '10:25:37', '', '1.2.392.200036.9184.1.5601296.140003.250814.1.25.1', '34023', '2508142000000001', seriesList, 5));
 		})();
-		patientList.push(new Patient('ƒCƒYƒ‚ƒg ƒ^ƒJƒI', '00140003', '’j', '1944/01/26', studyList, 1));
+		patientList.push(new Patient('ã‚¤ã‚ºãƒ¢ãƒˆ ã‚¿ã‚«ã‚ª', '00140003', 'ç”·', '1944/01/26', studyList, 1));
 	})();
 })();
